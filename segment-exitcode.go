@@ -73,7 +73,7 @@ func segmentExitCode(p *powerline) {
 			meaning = getMeaningFromExitCode(*p.args.PrevError)
 		}
 		p.appendSegment("exit", segment{
-			content:    meaning,
+			content:    "\u2718" + " " + meaning,
 			foreground: p.theme.CmdFailedFg,
 			background: p.theme.CmdFailedBg,
 		})

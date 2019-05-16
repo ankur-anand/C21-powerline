@@ -115,7 +115,7 @@ var themes = map[string]Theme{
 		DotEnvFg: 15, // white
 		DotEnvBg: 55, // purple
 
-		AWSFg: 15, // white
+		AWSFg: 15,  // white
 		AWSBg: 172, // AWS orange
 
 		RepoCleanFg: 0,   // black
@@ -129,7 +129,7 @@ var themes = map[string]Theme{
 		CmdPassedFg: 15,
 		CmdPassedBg: 236,
 		CmdFailedFg: 15,
-		CmdFailedBg: 161,
+		CmdFailedBg: 16,
 
 		SvnChangesFg: 22, // dark green
 		SvnChangesBg: 148,
