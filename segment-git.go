@@ -177,7 +177,7 @@ func segmentGit(p *powerline) {
 	}
 
 	p.appendSegment("git-branch", segment{
-		content:    branch,
+		content:    "\ue0a0" + " " + branch,
 		foreground: foreground,
 		background: background,
 	})

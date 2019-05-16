@@ -31,7 +31,7 @@ func segmentGitLite(p *powerline) {
 	}
 
 	p.appendSegment("git-branch", segment{
-		content:    branch,
+		content:    "\ue0a0" + " " + branch,
 		foreground: p.theme.RepoCleanFg,
 		background: p.theme.RepoCleanBg,
 	})
