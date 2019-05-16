@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-const ellipsis = "\u2026"
+const ellipsis = "\uf754"
 
 type pathSegment struct {
 	path     string
