@@ -82,8 +82,8 @@ var themes = map[string]Theme{
 		Reset: 0xFF,
 
 		UsernameFg:     250,
-		UsernameBg:     240,
-		UsernameRootBg: 124,
+		UsernameBg:     15,
+		UsernameRootBg: 53,
 
 		HostnameFg: 250,
 		HostnameBg: 238,

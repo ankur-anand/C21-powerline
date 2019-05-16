@@ -61,7 +61,7 @@ func segmentHg(p *powerline) {
 		}
 
 		p.appendSegment("hg", segment{
-			content:    "\ue0a0" + " " + content,
+			content:    "\uf113" + " " + content,
 			foreground: foreground,
 			background: background,
 		})

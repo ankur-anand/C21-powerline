@@ -150,7 +150,7 @@ func main() {
 				"(valid choices: fancy, plain, dironly)")),
 		CwdMaxDepth: flag.Int(
 			"cwd-max-depth",
-			5,
+			3,
 			commentsWithDefaults("Maximum number of directories to show in path")),
 		CwdMaxDirSize: flag.Int(
 			"cwd-max-dir-size",
