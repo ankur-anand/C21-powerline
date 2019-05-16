@@ -23,7 +23,7 @@ func segmentUser(p *powerline) {
 	}
 
 	p.appendSegment("user", segment{
-		content:    userPrompt,
+		content:    "\uf007" + " " + userPrompt,
 		foreground: p.theme.UsernameFg,
 		background: background,
 	})
