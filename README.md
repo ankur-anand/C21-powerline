@@ -8,9 +8,12 @@ Current default demo
 ## Language support extended
 
 1. `Go`
-   ![](demoImages/golangPatched.jpeg)
+
+![](demoImages/golangPatched.jpeg)
+
 2. `Node.js`
-   ![](demoImages/nodejsPatched.jpeg)
+
+![](demoImages/nodejsPatched.jpeg)
 
 Currently this repo can be installed using `go get -u github.com/ankur-anand/C21-powerline`
 
