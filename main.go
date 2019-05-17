@@ -131,6 +131,7 @@ var modules = map[string]func(*powerline){
 	"venv":                segmentVirtualEnv,
 	"vgo":                 segmentVirtualGo,
 	"nix-shell":           segmentNixShell,
+	"go":                  segmentGolang,
 }
 
 func comments(lines ...string) string {
@@ -195,7 +196,7 @@ func main() {
 				"(valid choices: aws, cwd, docker, dotenv, duration, exit, git, gitlite, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, root, shell-var, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo)")),
 		Priority: flag.String(
 			"priority",
-			"root,cwd,user,host,ssh,perms,git-branch,git-status,hg,jobs,exit,cwd-path",
+			"root,cwd,user,host,ssh,perms,git-branch,git-status,hg,jobs,exit,cwd-path,node,golang",
 			commentsWithDefaults("Segments sorted by priority, if not enough space exists, the least priorized segments are removed first. Separate with ','",
 				"(valid choices: aws, cwd, docker, dotenv, duration, exit, git, gitlite, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, root, shell-var, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo)")),
 		MaxWidthPercentage: flag.Int(

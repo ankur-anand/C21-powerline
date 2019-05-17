@@ -21,7 +21,7 @@ func segmentNode(p *powerline) {
 			err = json.Unmarshal(raw, &pkg)
 			if err == nil {
 				p.appendSegment("node-version", segment{
-					content:    pkg.Version + " \u2B22",
+					content:    pkg.Version + " \ue718",
 					foreground: p.theme.NodeFg,
 					background: p.theme.NodeBg,
 				})
