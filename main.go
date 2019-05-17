@@ -186,9 +186,9 @@ func main() {
 				"(valid choices: bare, bash, zsh)")),
 		Modules: flag.String(
 			"modules",
-			"nix-shell,venv,user,ssh,cwd,perms,git,hg,jobs,exit,root,vgo",
+			"user,ssh,cwd,perms,git,hg,node,golang,jobs,exit,root",
 			commentsWithDefaults("The list of modules to load, separated by ','",
-				"(valid choices: aws, cwd, docker, dotenv, duration, exit, git, gitlite, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, root, shell-var, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo)")),
+				"(valid choices: aws, cwd, docker, dotenv, duration, exit, git, gitlite, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, root, shell-var, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo, golang)")),
 		ModulesRight: flag.String(
 			"modules-right",
 			"",
@@ -196,9 +196,9 @@ func main() {
 				"(valid choices: aws, cwd, docker, dotenv, duration, exit, git, gitlite, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, root, shell-var, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo)")),
 		Priority: flag.String(
 			"priority",
-			"root,cwd,user,host,ssh,perms,git-branch,git-status,hg,jobs,exit,cwd-path,node,golang",
+			"root,cwd,user,host,ssh,perms,git-branch,node,golang,git-status,hg,jobs,exit,cwd-path",
 			commentsWithDefaults("Segments sorted by priority, if not enough space exists, the least priorized segments are removed first. Separate with ','",
-				"(valid choices: aws, cwd, docker, dotenv, duration, exit, git, gitlite, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, root, shell-var, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo)")),
+				"(valid choices: aws, cwd, docker, dotenv, duration, exit, git, gitlite, hg, host, jobs, kube, load, newline, nix-shell, node, perlbrew, perms, root, shell-var, ssh, svn, termtitle, terraform-workspace, time, user, venv, vgo, golang)")),
 		MaxWidthPercentage: flag.Int(
 			"max-width",
 			0,

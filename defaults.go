@@ -168,7 +168,7 @@ var themes = map[string]Theme{
 		ShellVarBg: 11,
 
 		NodeFg: 15,
-		NodeBg: 40,
+		NodeBg: 237,
 
 		LoadFg:           15,
 		LoadBg:           22,

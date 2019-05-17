@@ -11,9 +11,9 @@ func segmentGolang(p *powerline) {
 	if err == nil && !stat.IsDir() {
 
 		p.appendSegment("golang", segment{
-			content:    " \ue724",
-			foreground: 15,
-			background: 6,
+			content:    "\ufcd1",
+			foreground: 254,
+			background: 237,
 		})
 	}
 
