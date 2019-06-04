@@ -15,6 +15,10 @@ Current default demo
 
 ![](demoImages/nodejsPatched.jpeg)
 
+3. `Rust-lang`
+
+![](demoImages/rust-demo.jpeg)
+
 Currently this repo can be installed using `go get -u github.com/ankur-anand/C21-powerline`
 
 For this extended version to work please install [nerdsfonts](https://nerdfonts.com/) and make sure the installed patched font is your default font for your terminal.
